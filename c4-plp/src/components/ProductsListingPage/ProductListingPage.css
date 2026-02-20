@@ -1,7 +1,43 @@
 .plp-container {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    padding: 40px 5%;
+    gap: 40px;
+    padding: 20px 5%;
     align-items: flex-start;
+}
+
+.product-grid {
+    display: grid;
+    /* This creates 3 columns of equal width by default on desktop */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    align-items: stretch; /* Forces all cards in a row to match height */
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures the card fills the grid cell */
+    border: 1px solid #eee;
+    padding: 15px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.product-image {
+    width: 100%;
+    /* Fixed aspect ratio keeps images consistent [cite: 66] */
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Pushes the button to the bottom */
+}
+
+.add-to-cart {
+    margin-top: auto; /* Aligns all buttons at the bottom of the card [cite: 71] */
 }
