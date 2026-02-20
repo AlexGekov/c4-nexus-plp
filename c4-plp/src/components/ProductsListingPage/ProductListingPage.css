@@ -1,0 +1,7 @@
+.plp-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 40px 5%;
+    align-items: flex-start;
+}
