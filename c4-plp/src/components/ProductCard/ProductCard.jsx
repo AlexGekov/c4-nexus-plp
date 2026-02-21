@@ -1,3 +1,5 @@
+import "./ProductCard.css";
+
 
 const ProductCard = ({ product }) => {
   const renderStars = (rating) => {
