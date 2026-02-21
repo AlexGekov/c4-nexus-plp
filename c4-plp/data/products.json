@@ -188,73 +188,73 @@
   },
   {
     "id": 18,
-    "category": "Accessories",
-    "name": "Aviator Sunglasses",
-    "description": "Classic gold-rimmed lenses with 100% UV protection.",
+    "category": "Jewelry",
+    "name": "Sapphire Drop Earrings",
+    "description": "Deep blue lab-grown sapphires set in sterling silver.",
     "price": 130,
     "discountPrice": 110,
     "rating": 5,
-    "color": "Gold",
-    "image": "https://placehold.co/300x400?text=Aviators"
+    "color": "Blue",
+    "image": "https://placehold.co/300x400?text=Sapphire+Earrings"
   },
   {
     "id": 19,
-    "category": "Accessories",
-    "name": "Leather Bifold Wallet",
-    "description": "Genuine cowhide leather with RFID blocking technology.",
+    "category": "Jewelry",
+    "name": "Cuban Link Chain",
+    "description": "Solid stainless steel chain with a high-polish finish.",
     "price": 50,
     "discountPrice": null,
     "rating": 4,
-    "color": "Black",
-    "image": "https://placehold.co/300x400?text=Wallet"
+    "color": "Silver",
+    "image": "https://placehold.co/300x400?text=Cuban+Link"
   },
   {
     "id": 20,
-    "category": "Accessories",
-    "name": "Silk Floral Scarf",
-    "description": "Hand-rolled edges with a vibrant spring pattern.",
+    "category": "Jewelry",
+    "name": "Rose Gold Bangle",
+    "description": "Dainty rose gold plated bangle with a hidden clasp.",
     "price": 45,
     "discountPrice": 35,
     "rating": 5,
     "color": "Pink",
-    "image": "https://placehold.co/300x400?text=Silk+Scarf"
+    "image": "https://placehold.co/300x400?text=Rose+Gold+Bangle"
   },
   {
     "id": 21,
-    "category": "Accessories",
-    "name": "Minimalist Watch",
-    "description": "Silver mesh band with a clean, numberless dial.",
+    "category": "Jewelry",
+    "name": "Diamond Solitaire Ring",
+    "description": "Classic four-prong setting with a brilliant round cut stone.",
     "price": 180,
     "discountPrice": 150,
     "rating": 4,
     "color": "Silver",
-    "image": "https://placehold.co/300x400?text=Watch"
+    "image": "https://placehold.co/300x400?text=Diamond+Ring"
   },
   {
     "id": 22,
-    "category": "Accessories",
-    "name": "Braided Leather Belt",
-    "description": "Versatile belt with a vintage brass buckle.",
+    "category": "Jewelry",
+    "name": "Leather Wrap Bracelet",
+    "description": "Hand-braided leather with an adjustable silver toggle.",
     "price": 40,
     "discountPrice": null,
     "rating": 3,
     "color": "Brown",
-    "image": "https://placehold.co/300x400?text=Belt"
+    "image": "https://placehold.co/300x400?text=Leather+Bracelet"
   },
   {
     "id": 23,
-    "category": "Accessories",
-    "name": "Wool Fedora Hat",
-    "description": "Stiff brimmed hat made from premium Australian wool.",
+    "category": "Jewelry",
+    "name": "Pearl Strand Necklace",
+    "description": "Elegant freshwater pearls with a vintage floral clasp.",
     "price": 75,
     "discountPrice": 60,
     "rating": 4,
-    "color": "Grey",
-    "image": "https://placehold.co/300x400?text=Fedora"
+    "color": "White",
+    "image": "https://placehold.co/300x400?text=Pearl+Necklace"
   },
   {
     "id": 24,
-    "category": "Accessories",
+    "category": "Jewelry",
     "name": "Gold Hoop Earrings",
     "description": "14k gold-plated hoops for everyday elegance.",
     "price": 30,
@@ -353,25 +353,25 @@
   },
   {
     "id": 33,
-    "category": "Accessories",
-    "name": "Beanie Hat",
-    "description": "Rib-knit acrylic to keep you warm in winter.",
-    "price": 20,
+    "category": "Jewelry",
+    "name": "Onyx Signet Ring",
+    "description": "Polished black onyx stone set in a wide silver band.",
+    "price": 60,
     "discountPrice": null,
     "rating": 5,
-    "color": "Navy",
-    "image": "https://placehold.co/300x400?text=Beanie"
+    "color": "Black",
+    "image": "https://placehold.co/300x400?text=Onyx+Ring"
   },
   {
     "id": 34,
-    "category": "Accessories",
-    "name": "Leather Tech Gloves",
-    "description": "Touchscreen compatible fingertips on sheepskin leather.",
-    "price": 60,
-    "discountPrice": 45,
+    "category": "Jewelry",
+    "name": "Emerald Tennis Bracelet",
+    "description": "Vibrant green lab-emeralds in a continuous row.",
+    "price": 120,
+    "discountPrice": 95,
     "rating": 4,
-    "color": "Black",
-    "image": "https://placehold.co/300x400?text=Gloves"
+    "color": "Green",
+    "image": "https://placehold.co/300x400?text=Emerald+Bracelet"
   },
   {
     "id": 35,
@@ -408,7 +408,7 @@
   },
   {
     "id": 38,
-    "category": "Accessories",
+    "category": "Jewelry",
     "name": "Crystal Pendant",
     "description": "Sterling silver chain with a teardrop crystal.",
     "price": 85,
@@ -606,58 +606,58 @@
   },
   {
     "id": 56,
-    "category": "Accessories",
-    "name": "Titanium Reading Glasses",
-    "description": "Ultra-lightweight frames with blue light coating.",
+    "category": "Jewelry",
+    "name": "Turquoise Cuff",
+    "description": "Hand-hammered copper cuff with a raw turquoise inlay.",
     "price": 110,
     "discountPrice": 90,
     "rating": 5,
-    "color": "Grey",
-    "image": "https://placehold.co/300x400?text=Titanium+Frames"
+    "color": "Turquoise",
+    "image": "https://placehold.co/300x400?text=Turquoise+Cuff"
   },
   {
     "id": 57,
-    "category": "Accessories",
-    "name": "Patterned Silk Tie",
-    "description": "100% silk tie featuring a subtle geometric weave.",
+    "category": "Jewelry",
+    "name": "Lariat Necklace",
+    "description": "Versatile Y-shaped necklace in 18k yellow gold.",
     "price": 40,
     "discountPrice": null,
     "rating": 4,
-    "color": "Navy",
-    "image": "https://placehold.co/300x400?text=Silk+Tie"
+    "color": "Gold",
+    "image": "https://placehold.co/300x400?text=Lariat+Necklace"
   },
   {
     "id": 58,
-    "category": "Accessories",
-    "name": "Enamel Lapel Pin",
-    "description": "Hand-painted enamel pin with a secure butterfly clutch.",
+    "category": "Jewelry",
+    "name": "Ametrine Brooch",
+    "description": "Unique bi-color ametrine stone set in an ornate frame.",
     "price": 15,
     "discountPrice": 10,
     "rating": 5,
-    "color": "Red",
-    "image": "https://placehold.co/300x400?text=Enamel+Pin"
+    "color": "Purple",
+    "image": "https://placehold.co/300x400?text=Brooch"
   },
   {
     "id": 59,
-    "category": "Accessories",
-    "name": "Braided Canvas Belt",
-    "description": "Stretchable woven material with a silver pin buckle.",
+    "category": "Jewelry",
+    "name": "Hematite Bead Bracelet",
+    "description": "Metallic grey stones known for their grounding properties.",
     "price": 30,
     "discountPrice": null,
     "rating": 3,
-    "color": "Blue",
-    "image": "https://placehold.co/300x400?text=Canvas+Belt"
+    "color": "Grey",
+    "image": "https://placehold.co/300x400?text=Hematite+Bracelet"
   },
   {
     "id": 60,
-    "category": "Accessories",
-    "name": "Compact Travel Umbrella",
-    "description": "Automatic open/close with wind-resistant ribs.",
+    "category": "Jewelry",
+    "name": "Moonstone Studs",
+    "description": "Iridescent moonstones that capture the light.",
     "price": 35,
     "discountPrice": 25,
     "rating": 4,
-    "color": "Black",
-    "image": "https://placehold.co/300x400?text=Umbrella"
+    "color": "White",
+    "image": "https://placehold.co/300x400?text=Moonstone+Studs"
   },
   {
     "id": 61,
@@ -826,18 +826,18 @@
   },
   {
     "id": 76,
-    "category": "Accessories",
-    "name": "Leather Cardholder",
-    "description": "Minimalist design with three card slots and center pocket.",
+    "category": "Jewelry",
+    "name": "Leather Card Wallet",
+    "description": "Durable stitched leather for organizing your essentials.",
     "price": 35,
     "discountPrice": 25,
     "rating": 5,
     "color": "Black",
-    "image": "https://placehold.co/300x400?text=Cardholder"
+    "image": "https://placehold.co/300x400?text=Wallet"
   },
   {
     "id": 77,
-    "category": "Accessories",
+    "category": "Jewelry",
     "name": "Gold Link Bracelet",
     "description": "Elegant curb chain with a secure lobster clasp.",
     "price": 95,
@@ -848,36 +848,36 @@
   },
   {
     "id": 78,
-    "category": "Accessories",
-    "name": "Patterned Bandana",
-    "description": "100% cotton with a traditional paisley print.",
+    "category": "Jewelry",
+    "name": "Enamel Charm",
+    "description": "Playful hand-painted charm for your favorite necklace.",
     "price": 15,
     "discountPrice": 10,
     "rating": 5,
     "color": "Red",
-    "image": "https://placehold.co/300x400?text=Bandana"
+    "image": "https://placehold.co/300x400?text=Charm"
   },
   {
     "id": 79,
-    "category": "Accessories",
-    "name": "Wool Scarf",
-    "description": "Heavyweight rib-knit wool for extreme cold protection.",
+    "category": "Jewelry",
+    "name": "Amulet Necklace",
+    "description": "Intricate metalwork featuring a protective symbol.",
     "price": 45,
     "discountPrice": null,
     "rating": 4,
     "color": "Grey",
-    "image": "https://placehold.co/300x400?text=Wool+Scarf"
+    "image": "https://placehold.co/300x400?text=Amulet"
   },
   {
     "id": 80,
-    "category": "Accessories",
-    "name": "Digital Sport Watch",
-    "description": "Water-resistant with stopwatch and backlit display.",
+    "category": "Jewelry",
+    "name": "Analog Chronograph",
+    "description": "Classic timepiece with high-precision quartz movement.",
     "price": 65,
     "discountPrice": 50,
     "rating": 5,
     "color": "Black",
-    "image": "https://placehold.co/300x400?text=Sport+Watch"
+    "image": "https://placehold.co/300x400?text=Watch"
   },
   {
     "id": 81,
@@ -969,25 +969,25 @@
   },
   {
     "id": 89,
-    "category": "Accessories",
-    "name": "Canvas Totebag",
-    "description": "Lightweight reusable bag for light errands.",
+    "category": "Jewelry",
+    "name": "Macrame Bracelet",
+    "description": "Bohemian style knotted cords with silver accents.",
     "price": 10,
     "discountPrice": 5,
     "rating": 5,
     "color": "Natural",
-    "image": "https://placehold.co/300x400?text=Tote"
+    "image": "https://placehold.co/300x400?text=Macrame"
   },
   {
     "id": 90,
-    "category": "Accessories",
-    "name": "Leather Keychain",
-    "description": "Braided leather loop with a sturdy brass ring.",
+    "category": "Jewelry",
+    "name": "Brass Tie Clip",
+    "description": "Modern industrial style to keep your look sharp.",
     "price": 20,
     "discountPrice": null,
     "rating": 4,
     "color": "Brown",
-    "image": "https://placehold.co/300x400?text=Keychain"
+    "image": "https://placehold.co/300x400?text=Tie+Clip"
   },
   {
     "id": 91,
@@ -1057,25 +1057,25 @@
   },
   {
     "id": 97,
-    "category": "Accessories",
-    "name": "Reading Glasses",
-    "description": "Lightweight acetate frames with clear lenses.",
+    "category": "Jewelry",
+    "name": "Locket Necklace",
+    "description": "Antique-style silver locket for a personalized touch.",
     "price": 45,
     "discountPrice": 30,
     "rating": 4,
     "color": "Black",
-    "image": "https://placehold.co/300x400?text=Glasses"
+    "image": "https://placehold.co/300x400?text=Locket"
   },
   {
     "id": 98,
-    "category": "Accessories",
-    "name": "Knitted Tie",
-    "description": "Square-bottom tie in a soft silk-wool blend.",
+    "category": "Jewelry",
+    "name": "Topaz Pendant",
+    "description": "Sparkling blue topaz on a delicate white gold chain.",
     "price": 55,
     "discountPrice": null,
     "rating": 4,
     "color": "Navy",
-    "image": "https://placehold.co/300x400?text=Knitted+Tie"
+    "image": "https://placehold.co/300x400?text=Topaz"
   },
   {
     "id": 99,
@@ -1200,7 +1200,7 @@
   },
   {
     "id": 110,
-    "category": "Accessories",
+    "category": "Jewelry",
     "name": "Bead Bracelet",
     "description": "Matte onyx beads on a durable elastic cord.",
     "price": 25,
@@ -1211,18 +1211,18 @@
   },
   {
     "id": 111,
-    "category": "Accessories",
-    "name": "Leather Passport Case",
-    "description": "Genuine leather with pockets for cards and boarding pass.",
+    "category": "Jewelry",
+    "name": "Silver Choker",
+    "description": "Contemporary rigid neck ring for a bold statement.",
     "price": 40,
     "discountPrice": 30,
     "rating": 5,
     "color": "Brown",
-    "image": "https://placehold.co/300x400?text=Passport+Case"
+    "image": "https://placehold.co/300x400?text=Choker"
   },
   {
     "id": 112,
-    "category": "Accessories",
+    "category": "Jewelry",
     "name": "Enamel Cufflinks",
     "description": "Polished silver with deep navy enamel inlays.",
     "price": 50,
@@ -1233,25 +1233,25 @@
   },
   {
     "id": 113,
-    "category": "Accessories",
-    "name": "Wide Brim Sunhat",
-    "description": "Lightweight straw with a ribbon chin strap.",
+    "category": "Jewelry",
+    "name": "Amethyst Necklace",
+    "description": "Rich purple stones on a delicate gold strand.",
     "price": 45,
     "discountPrice": 35,
     "rating": 4,
     "color": "Natural",
-    "image": "https://placehold.co/300x400?text=Sunhat"
+    "image": "https://placehold.co/300x400?text=Amethyst"
   },
   {
     "id": 114,
-    "category": "Accessories",
-    "name": "Infinity Scarf",
-    "description": "Loop scarf in a lightweight jersey cotton blend.",
+    "category": "Jewelry",
+    "name": "Talisman Ring",
+    "description": "A symbolic design meant to bring good fortune.",
     "price": 25,
     "discountPrice": null,
     "rating": 3,
     "color": "Red",
-    "image": "https://placehold.co/300x400?text=Infinity+Scarf"
+    "image": "https://placehold.co/300x400?text=Talisman"
   },
   {
     "id": 115,
@@ -1288,14 +1288,14 @@
   },
   {
     "id": 118,
-    "category": "Accessories",
-    "name": "Braided Belt",
-    "description": "Elasticated webbing with leather end-tips.",
+    "category": "Jewelry",
+    "name": "Charm Bracelet",
+    "description": "Customize with your favorite memories and symbols.",
     "price": 30,
     "discountPrice": null,
     "rating": 4,
     "color": "Navy",
-    "image": "https://placehold.co/300x400?text=Braided+Belt"
+    "image": "https://placehold.co/300x400?text=Charm+Bracelet"
   },
   {
     "id": 119,
