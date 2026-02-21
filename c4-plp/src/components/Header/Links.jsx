@@ -9,7 +9,7 @@ export default function Links() {
                     <li><Link to="/Catalog/Bags" className="light" >Bags</Link></li>
                     <li><Link to="/Catalog/Shoes" className="light" >Shoes</Link></li>
                     <li><Link to="/Catalog/Denim" className="light" >Denim</Link></li>
-                    <li><Link to="/Catalog/Jewellery" className="light" >Jewellery</Link></li>
+                    <li><Link to="/Catalog/Jewelry" className="light" >Jewelry</Link></li>
                 </ul >
             </div>
     )
