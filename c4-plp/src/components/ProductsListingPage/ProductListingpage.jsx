@@ -9,7 +9,7 @@ export default function ProductListingPage() {
 
   const [visibleCount, setVisibleCount] = useState(20);
   const [sortType, setSortType] = useState("A-Z"); 
-  const [selectedColor, setSelectedColor] = useState("");
+  const [selectedColors, setSelectedColors] = useState([]);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(200);
 
@@ -19,7 +19,7 @@ export default function ProductListingPage() {
 
   const sidebarFiltered = baseCategoryProducts.filter((product) => {
     const matchesColor =
-      selectedColor === "" || product.color === selectedColor;
+      selectedColors.length === 0 || selectedColors.includes(product.color);
     const matchesPrice = product.price >= minPrice && product.price <= maxPrice;
 
     return matchesColor && matchesPrice;
@@ -100,9 +100,11 @@ export default function ProductListingPage() {
               <input className="checkbox"
                 type="checkbox"
                 id={color}
-                checked={selectedColor === color}
+                checked={selectedColors.includes(color)}
                 onChange={() =>
-                  setSelectedColor(selectedColor === color ? "" : color)
+                  setSelectedColors((prev) =>
+                    prev.includes(color) ? prev.filter((c) => c !== color) : [...prev, color]
+                  )
                 }
               />
               <label htmlFor={color}>{color}</label>
