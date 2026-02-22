@@ -1,43 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .plp-container {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    padding: 20px 5%;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px 5%;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+
+  position: sticky;
+  top: 120px;
+  height: fit-content;
+
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.price-slider-container {
+  position: relative;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.price-visualization {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: 10px;
+}
+
+.price-visualization svg {
+  width: 100%;
+  height: 100%;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  position: absolute;
+  width: 100%;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  top: 45px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #000;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.price-input-boxes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.separator {
+  font-weight: bold;
+}
+
+.plp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #eee; 
+  padding-bottom: 10px;
+}
+
+.category-details h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.category-details p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.sort-dropdown {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.product-counter {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.plp-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px 5%;
+  align-items: flex-start;
 }
 
 .product-grid {
-    display: grid;
-    /* This creates 3 columns of equal width by default on desktop */
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
-    align-items: stretch; /* Forces all cards in a row to match height */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .product-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%; /* Ensures the card fills the grid cell */
-    border: 1px solid #eee;
-    padding: 15px;
-    background: #fff;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #eee;
+  padding: 15px;
+  background: #fff;
+  box-sizing: border-box;
 }
 
 .product-image {
-    width: 100%;
-    /* Fixed aspect ratio keeps images consistent [cite: 66] */
-    aspect-ratio: 1 / 1; 
-    object-fit: cover;
-    margin-bottom: 10px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .product-info {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1; /* Pushes the button to the bottom */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .add-to-cart {
-    margin-top: auto; /* Aligns all buttons at the bottom of the card [cite: 71] */
+  margin-top: auto;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.load-more-btn {
+  padding: 15px 30px;
+  background-color: rgb(117, 129, 133);
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.load-more-btn:hover {
+  background-color: rgba(117, 129, 133, 0.8);
+  padding: 20px 35px;
+}
+
+.filter-section {
+  margin-bottom: 35px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.filter-option input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.filter-option label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 1rem;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+.filter-option label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.filter-option:hover label::before {
+  border-color: #baffc9;
+}
+
+.filter-option input:checked + label::before {
+  background-color: #333;
+  border-color: #333;
+}
+
+.filter-option label::after {
+  content: "";
+  position: absolute;
+  left: 8.5px;
+  top: 50%;
+  transform: translateY(-70%) rotate(45deg);
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: none;
+}
+
+.filter-option input:checked + label::after {
+  display: block;
+}
+
+.filter-option input:checked + label {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .plp-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
