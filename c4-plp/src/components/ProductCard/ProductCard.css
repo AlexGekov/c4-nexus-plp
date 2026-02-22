@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 
+.product-image {
+    border-radius: 1em;
+}
+
+.product-card {
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px #cecece
+}
+
 .product-price {
   display: flex;
   align-items: center;
