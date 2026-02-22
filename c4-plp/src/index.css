@@ -1,0 +1,24 @@
+/* Global styles — import Montserrat 500 and apply as the default font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+  --font-sans: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure headings and common text inherit the weight */
+h1, h2, h3, h4, h5, h6, p, a, span, div {
+  font-family: var(--font-sans);
+  font-weight: 500;
+}
