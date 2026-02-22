@@ -191,7 +191,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .load-more-btn:hover {
-  background-color: rgba(117, 129, 133, 0.8);
+  background-color: #9adda9;
   padding: 20px 35px;
 }
 
