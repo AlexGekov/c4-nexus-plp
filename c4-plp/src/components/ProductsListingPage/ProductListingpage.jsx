@@ -1,11 +1,15 @@
 import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import productsData from "../../../data/products.json";
 import ProductCard from "../ProductCard/ProductCard";
 import "./ProductListingPage.css";
 
 export default function ProductListingPage() {
   const { categoryName } = useParams();
+
+  useEffect(() => {
+    document.title = `${categoryName}`;
+  }, [categoryName]);
 
   const [visibleCount, setVisibleCount] = useState(20);
   const [sortType, setSortType] = useState("A-Z"); 
