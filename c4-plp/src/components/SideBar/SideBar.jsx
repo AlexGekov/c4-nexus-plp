@@ -5,7 +5,6 @@ export default function Sidebar({ onFilterChange }) {
     <div className="sidebar-content">
       <h3>Filters</h3>
       
-      {/* Price Filter [cite: 74, 77] */}
       <div className="filter-group">
         <h4>Price Range</h4>
         <input 
@@ -16,7 +15,6 @@ export default function Sidebar({ onFilterChange }) {
         />
       </div>
 
-      {/* Color Filter [cite: 74, 76, 78] */}
       <div className="filter-group">
         <h4>Color</h4>
         {['Black', 'Brown', 'Blue', 'Red'].map(color => (
